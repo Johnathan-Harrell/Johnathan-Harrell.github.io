@@ -2,15 +2,15 @@
 title: "Math 408 Group Project Proposal"
 ---
 ### Group Members: 
--Miles O’Brien <br>
--Johnathan Harrell <br>
--Jasmine Wright <br>
--Kamaran Francis <br> 
--Steven Li
+*Miles O’Brien* <br>
+*Johnathan Harrell* <br>
+*Jasmine Wright* <br>
+*Kamaran Francis* <br> 
+*Steven Li*
 
 ### Project Role: 
-- Each member will run Sheena Mogan’s code 20 times. 
-- **Johnathan Harrell:** Construct 5 dimensional tensor.
+- **Each member will run Sheena Mogan’s code 20 times** 
+- **Johnathan Harrell:** Construct 5 dimensional tensor
 - **Rest of team:** work on enabling Sheena Mogan's code to work on GPU
 
 ### Group Dynamic Role 
