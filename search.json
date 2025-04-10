@@ -11,6 +11,34 @@
     "href": "index.html",
     "title": "Math 408 Group Project Proposal",
     "section": "",
-    "text": "Group Members:\n-Miles O’Brien -Johnathan Harrell -Jasmine Wright -Kamaran Francis, -Steven Li\n\n\nProject Role: Each member will run Sheena Mogan’s code 20 times.\n\nJohnathan Harrell: Construct 5 dimensional tensor.\nRest of team will work on enabling Sheena Mogan’s code to work on GPU\n\n\n\nGroup Dynamic Role\n\nPresentation Johnathan Harrell and Miles O’Brien\nWrite-Up Kamaran Francis, Jasmine Wright, Steven Yi\n\n\n\nTitle: Bio-Marker Discovery by Non-Canonical Polyadic Decomposition\n\n\nPurpose:\nBiomarkers are important because it may be possible for scientists to use them to detect, classify, and measure the type of cancer present in a patient. Research is ongoing to support whether or not biomarkers alone are enough to determine cancer types and potential treatments in patients. Patient data can aid in discovering the relationship between specific biomarkers, such as genes that encode proteins. These biomarkers can play an important role in discovering how treatments can be applied to specific cancer types. Our work continues with results obtained in a Master’s thesis by Sheena Mogan titled “Biomarker Discovery by Semi-Supervised Non-Negative Matrix Factorization”. Our goal is to apply Non-Negative Canonical Polyadic Decomposition (NNCPD) to the datasets used in her research and compare our results to her findings. Furthermore, we will confirm the links between the genetic information and cancer types found by NNCPD in the datasets in comparison to the results that have been confirmed in the peer-reviewed publications. We chose NNCPD because of its ability to process multi-omics data tensors, unlike other algorithms limited by their inability to analyze data in more than two dimensions. We hope this method of analyzing genetic oncological data will provide oncologists with a wider lens regarding patient cancer types and possible outcomes of treatment.\n\n\nData:\nThe data set we used is from the Cancer Cell Line Encyclopedia and was provided by N. Fujita. It includes 24 cancer types, as well as five types of genetic information and variables for 1054 patients. We use this information to train the algorithm and identify clusters in the biomarker information that ultimately helps us assign a specific cancer type with certain confidence to each subject. # Variables: The variables used in the CCLE data set are listed below, along with their dimensionality and data type. These variables are: - Compound Sensitivity - Mutation - Copy Number Amplification - Copy Number Loss - mRNA Expression - Tumor Type.\n\n\nEnd Product:\nWe hope to produce a topic model algorithm that can mirror Sheena Mogan’s and Naoya Fujita’s results that showed Biomarkers can be used to identify Cancer drugs that are able to treat certain types of cancer that have been shown through clinical studies to be difficult to treat either because they return after being treated or metastasis easily in certain parts of the body. Our results eliminate the need to analyze each data frame separately by stacking them into a single tensor before applying Non-negative Canonical Polyadic Decomposition. $$\n\n1+1\n\n[1] 2"
+    "text": "-Miles O’Brien -Johnathan Harrell -Jasmine Wright -Kamaran Francis, -Steven Li"
+  },
+  {
+    "objectID": "index.html#purpose",
+    "href": "index.html#purpose",
+    "title": "Math 408 Group Project Proposal",
+    "section": "Purpose:",
+    "text": "Purpose:\nBiomarkers are important because it may be possible for scientists to use them to detect, classify, and measure the type of cancer present in a patient. Research is ongoing to support whether or not biomarkers alone are enough to determine cancer types and potential treatments in patients. Patient data can aid in discovering the relationship between specific biomarkers, such as genes that encode proteins. These biomarkers can play an important role in discovering how treatments can be applied to specific cancer types. Our work continues with results obtained in a Master’s thesis by Sheena Mogan titled “Biomarker Discovery by Semi-Supervised Non-Negative Matrix Factorization”. Our goal is to apply Non-Negative Canonical Polyadic Decomposition (NNCPD) to the datasets used in her research and compare our results to her findings. Furthermore, we will confirm the links between the genetic information and cancer types found by NNCPD in the datasets in comparison to the results that have been confirmed in the peer-reviewed publications. We chose NNCPD because of its ability to process multi-omics data tensors, unlike other algorithms limited by their inability to analyze data in more than two dimensions. We hope this method of analyzing genetic oncological data will provide oncologists with a wider lens regarding patient cancer types and possible outcomes of treatment."
+  },
+  {
+    "objectID": "index.html#data",
+    "href": "index.html#data",
+    "title": "Math 408 Group Project Proposal",
+    "section": "Data:",
+    "text": "Data:\nThe data set we used is from the Cancer Cell Line Encyclopedia and was provided by N. Fujita. It includes 24 cancer types, as well as five types of genetic information and variables for 1054 patients. We use this information to train the algorithm and identify clusters in the biomarker information that ultimately helps us assign a specific cancer type with certain confidence to each subject."
+  },
+  {
+    "objectID": "index.html#variables",
+    "href": "index.html#variables",
+    "title": "Math 408 Group Project Proposal",
+    "section": "Variables:",
+    "text": "Variables:\nThe variables used in the CCLE data set are listed below, along with their dimensionality and data type. These variables are: - Compound Sensitivity - Mutation - Copy Number Amplification - Copy Number Loss - mRNA Expression - Tumor Type."
+  },
+  {
+    "objectID": "index.html#end-product",
+    "href": "index.html#end-product",
+    "title": "Math 408 Group Project Proposal",
+    "section": "End Product:",
+    "text": "End Product:\nWe hope to produce a topic model algorithm that can mirror Sheena Mogan’s and Naoya Fujita’s results that showed Biomarkers can be used to identify Cancer drugs that are able to treat certain types of cancer that have been shown through clinical studies to be difficult to treat either because they return after being treated or metastasis easily in certain parts of the body. Our results eliminate the need to analyze each data frame separately by stacking them into a single tensor before applying Non-negative Canonical Polyadic Decomposition. $$\n\n1+1\n\n[1] 2"
   }
 ]

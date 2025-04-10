@@ -147,12 +147,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#group-members" id="toc-group-members" class="nav-link active" data-scroll-target="#group-members">Group Members:</a></li>
-  <li><a href="#project-role-each-member-will-run-sheena-mogans-code-20-times." id="toc-project-role-each-member-will-run-sheena-mogans-code-20-times." class="nav-link" data-scroll-target="#project-role-each-member-will-run-sheena-mogans-code-20-times.">Project Role: Each member will run Sheena Mogan’s code 20 times.</a></li>
+  <li><a href="#project-role" id="toc-project-role" class="nav-link" data-scroll-target="#project-role">Project Role:</a></li>
   <li><a href="#group-dynamic-role" id="toc-group-dynamic-role" class="nav-link" data-scroll-target="#group-dynamic-role">Group Dynamic Role</a></li>
-  <li><a href="#title-bio-marker-discovery-by-non-canonical-polyadic-decomposition" id="toc-title-bio-marker-discovery-by-non-canonical-polyadic-decomposition" class="nav-link" data-scroll-target="#title-bio-marker-discovery-by-non-canonical-polyadic-decomposition">Title: Bio-Marker Discovery by Non-Canonical Polyadic Decomposition</a></li>
+  <li><a href="#title-bio-marker-discovery-by-non-canonical-polyadic-decomposition" id="toc-title-bio-marker-discovery-by-non-canonical-polyadic-decomposition" class="nav-link" data-scroll-target="#title-bio-marker-discovery-by-non-canonical-polyadic-decomposition">Title: Bio-Marker Discovery by Non-Canonical Polyadic Decomposition</a>
+  <ul class="collapse">
   <li><a href="#purpose" id="toc-purpose" class="nav-link" data-scroll-target="#purpose">Purpose:</a></li>
   <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data:</a></li>
+  <li><a href="#variables" id="toc-variables" class="nav-link" data-scroll-target="#variables">Variables:</a></li>
   <li><a href="#end-product" id="toc-end-product" class="nav-link" data-scroll-target="#end-product">End Product:</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -178,19 +181,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="group-members" class="level1">
-<h1>Group Members:</h1>
+<section id="group-members" class="level3">
+<h3 class="anchored" data-anchor-id="group-members">Group Members:</h3>
 <p>-Miles O’Brien -Johnathan Harrell -Jasmine Wright -Kamaran Francis, -Steven Li</p>
 </section>
-<section id="project-role-each-member-will-run-sheena-mogans-code-20-times." class="level1">
-<h1>Project Role: Each member will run Sheena Mogan’s code 20 times.</h1>
+<section id="project-role" class="level3">
+<h3 class="anchored" data-anchor-id="project-role">Project Role:</h3>
 <ul>
+<li>Each member will run Sheena Mogan’s code 20 times.</li>
 <li><strong>Johnathan Harrell:</strong> Construct 5 dimensional tensor.</li>
-<li><strong>Rest of team will work on enabling Sheena Mogan’s code to work on GPU</strong></li>
+<li><strong>Rest of team</strong> work on enabling Sheena Mogan’s code to work on GPU</li>
 </ul>
 </section>
-<section id="group-dynamic-role" class="level1">
-<h1>Group Dynamic Role</h1>
+<section id="group-dynamic-role" class="level3">
+<h3 class="anchored" data-anchor-id="group-dynamic-role">Group Dynamic Role</h3>
 <ul>
 <li><strong>Presentation Johnathan Harrell and Miles O’Brien</strong></li>
 <li><strong>Write-Up Kamaran Francis, Jasmine Wright, Steven Yi</strong></li>
@@ -198,17 +202,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="title-bio-marker-discovery-by-non-canonical-polyadic-decomposition" class="level1">
 <h1>Title: Bio-Marker Discovery by Non-Canonical Polyadic Decomposition</h1>
-</section>
-<section id="purpose" class="level1">
-<h1>Purpose:</h1>
+<section id="purpose" class="level2">
+<h2 class="anchored" data-anchor-id="purpose">Purpose:</h2>
 <p>Biomarkers are important because it may be possible for scientists to use them to detect, classify, and measure the type of cancer present in a patient. Research is ongoing to support whether or not biomarkers alone are enough to determine cancer types and potential treatments in patients. Patient data can aid in discovering the relationship between specific biomarkers, such as genes that encode proteins. These biomarkers can play an important role in discovering how treatments can be applied to specific cancer types. Our work continues with results obtained in a Master’s thesis by Sheena Mogan titled “Biomarker Discovery by Semi-Supervised Non-Negative Matrix Factorization”. Our goal is to apply Non-Negative Canonical Polyadic Decomposition (NNCPD) to the datasets used in her research and compare our results to her findings. Furthermore, we will confirm the links between the genetic information and cancer types found by NNCPD in the datasets in comparison to the results that have been confirmed in the peer-reviewed publications. We chose NNCPD because of its ability to process multi-omics data tensors, unlike other algorithms limited by their inability to analyze data in more than two dimensions. We hope this method of analyzing genetic oncological data will provide oncologists with a wider lens regarding patient cancer types and possible outcomes of treatment.</p>
 </section>
-<section id="data" class="level1">
-<h1>Data:</h1>
-<p>The data set we used is from the Cancer Cell Line Encyclopedia and was provided by N. Fujita. It includes 24 cancer types, as well as five types of genetic information and variables for 1054 patients. We use this information to train the algorithm and identify clusters in the biomarker information that ultimately helps us assign a specific cancer type with certain confidence to each subject. # Variables: The variables used in the CCLE data set are listed below, along with their dimensionality and data type. These variables are: - Compound Sensitivity - Mutation - Copy Number Amplification - Copy Number Loss - mRNA Expression - Tumor Type.</p>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data:</h2>
+<p>The data set we used is from the Cancer Cell Line Encyclopedia and was provided by N. Fujita. It includes 24 cancer types, as well as five types of genetic information and variables for 1054 patients. We use this information to train the algorithm and identify clusters in the biomarker information that ultimately helps us assign a specific cancer type with certain confidence to each subject.</p>
 </section>
-<section id="end-product" class="level1">
-<h1>End Product:</h1>
+<section id="variables" class="level2">
+<h2 class="anchored" data-anchor-id="variables">Variables:</h2>
+<p>The variables used in the CCLE data set are listed below, along with their dimensionality and data type. These variables are: - Compound Sensitivity - Mutation - Copy Number Amplification - Copy Number Loss - mRNA Expression - Tumor Type.</p>
+</section>
+<section id="end-product" class="level2">
+<h2 class="anchored" data-anchor-id="end-product">End Product:</h2>
 <p>We hope to produce a topic model algorithm that can mirror Sheena Mogan’s and Naoya Fujita’s results that showed Biomarkers can be used to identify Cancer drugs that are able to treat certain types of cancer that have been shown through clinical studies to be difficult to treat either because they return after being treated or metastasis easily in certain parts of the body. Our results eliminate the need to analyze each data frame separately by stacking them into a single tensor before applying Non-negative Canonical Polyadic Decomposition. $$</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span><span class="sc">+</span><span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -218,6 +225,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
