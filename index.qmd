@@ -41,6 +41,5 @@ $$
 Latex format section
 $$
 ```{python}
-library("reticulate")
 1+1
 ```
