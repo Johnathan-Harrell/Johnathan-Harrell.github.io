@@ -6,7 +6,7 @@ title: "Math 408 Group Project Proposal"
 *Johnathan Harrell* <br>
 *Jasmine Wright* <br>
 *Kamaran Francis* <br> 
-*Junxi(Steven) Li*
+*Junxi (Steven) Li*
 
 ### Project Role: 
 - **Each member will run Sheena Mogan’s code 20 times** 
@@ -15,7 +15,7 @@ title: "Math 408 Group Project Proposal"
 
 ### Group Dynamic Role 
 - **Presentation: Johnathan Harrell and Miles O'Brien** 
-- **Write-Up: Kamaran Francis, Jasmine Wright, Junxi(Steven) Li**
+- **Write-Up: Kamaran Francis, Jasmine Wright, Junxi (Steven) Li**
 
 # Title: Bio-Marker Discovery by Non-Canonical Polyadic Decomposition
 
