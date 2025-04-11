@@ -1,0 +1,74 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Math 408 Group Project Proposal\"\n",
+        "---\n",
+        "\n",
+        "### Group Members: \n",
+        "*Miles O’Brien* <br>\n",
+        "*Johnathan Harrell* <br>\n",
+        "*Jasmine Wright* <br>\n",
+        "*Kamaran Francis* <br> \n",
+        "*Steven Li*\n",
+        "\n",
+        "### Project Role: \n",
+        "- **Each member will run Sheena Mogan’s code 20 times** \n",
+        "- **Johnathan Harrell:** Construct 5 dimensional tensor\n",
+        "- **Rest of team:** work on enabling Sheena Mogan's code to work on GPU, work on implementing pickle in code\n",
+        "\n",
+        "### Group Dynamic Role \n",
+        "- **Presentation: Johnathan Harrell and Miles O'Brien** \n",
+        "- **Write-Up: Kamaran Francis, Jasmine Wright, Steven Yi**\n",
+        "\n",
+        "# Title: Bio-Marker Discovery by Non-Canonical Polyadic Decomposition\n",
+        "\n",
+        "## Purpose: \n",
+        "Biomarkers are important because it may be possible for scientists to use them to detect, classify, and measure the type of cancer present in a patient. Research is ongoing to support whether or not biomarkers alone are enough to determine cancer types and potential treatments in patients. Patient data can aid in discovering the relationship between specific biomarkers, such as genes that encode proteins. These biomarkers can play an important role in discovering how treatments can be applied to specific cancer types. Our work continues with results obtained in a Master’s thesis by Sheena Mogan titled “Biomarker Discovery by Semi-Supervised Non-Negative Matrix Factorization”. Our goal is to apply Non-Negative Canonical Polyadic Decomposition (NNCPD) to the datasets used in her research and compare our results to her findings. Furthermore, we will confirm the links between the genetic information and cancer types found by NNCPD in the datasets in comparison to the results that have been confirmed in the peer-reviewed publications. We chose NNCPD because of its ability to process multi-omics data tensors, unlike other algorithms limited by their inability to analyze data in more than two dimensions. We hope this method of analyzing genetic oncological data will provide oncologists with a wider lens regarding patient cancer types and possible outcomes of treatment.\n",
+        "\n",
+        "## Data: \n",
+        "The data set we used is from the Cancer Cell Line Encyclopedia and was provided by N. Fujita. It includes 24 cancer types, as well as five types of genetic information and variables for 1054 patients. We use this information to train the algorithm and identify clusters in the biomarker information that ultimately helps us assign a specific cancer type with certain confidence to each subject.\n",
+        "\n",
+        "## Variables: \n",
+        "The variables used in the CCLE data set are listed below, along with their dimensionality and data type.\n",
+        "These variables are:\n",
+        "- Compound Sensitivity <br>\n",
+        "- Mutation <br>\n",
+        "- Copy Number Amplification <br>\n",
+        "- Copy Number Loss <br>\n",
+        "- mRNA Expression <br>\n",
+        "- Tumor Type\n",
+        "\n",
+        "## End Product: \n",
+        "We hope to produce a topic model algorithm that can mirror Sheena Mogan’s and Naoya Fujita’s results that showed Biomarkers can be used to identify Cancer drugs that are able to treat certain types of cancer that have been shown through clinical studies to be difficult to treat either because they return after being treated or metastasis easily in certain parts of the body. Our results eliminate the need to analyze each data frame separately by stacking them into a single tensor before applying Non-negative Canonical Polyadic Decomposition.\n",
+        "$$\n",
+        "Latex format section\n",
+        "$$"
+      ],
+      "id": "9091c669"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "library(\"reticulate\")\n",
+        "1+1"
+      ],
+      "id": "4e388159",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

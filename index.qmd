@@ -6,16 +6,16 @@ title: "Math 408 Group Project Proposal"
 *Johnathan Harrell* <br>
 *Jasmine Wright* <br>
 *Kamaran Francis* <br> 
-*Steven Li*
+*Junxi(Steven) Li*
 
 ### Project Role: 
 - **Each member will run Sheena Mogan’s code 20 times** 
 - **Johnathan Harrell:** Construct 5 dimensional tensor
-- **Rest of team:** work on enabling Sheena Mogan's code to work on GPU
+- **Rest of team:** work on enabling Sheena Mogan's code to work on GPU, work on implementing pickle in code
 
 ### Group Dynamic Role 
 - **Presentation: Johnathan Harrell and Miles O'Brien** 
-- **Write-Up: Kamaran Francis, Jasmine Wright, Steven Yi**
+- **Write-Up: Kamaran Francis, Jasmine Wright, Junxi(Steven) Li**
 
 # Title: Bio-Marker Discovery by Non-Canonical Polyadic Decomposition
 
@@ -27,7 +27,7 @@ The data set we used is from the Cancer Cell Line Encyclopedia and was provided 
 
 ## Variables: 
 The variables used in the CCLE data set are listed below, along with their dimensionality and data type.
-These variables are:
+These variables are: <br>
 - Compound Sensitivity <br>
 - Mutation <br>
 - Copy Number Amplification <br>
@@ -38,6 +38,9 @@ These variables are:
 ## End Product: 
 We hope to produce a topic model algorithm that can mirror Sheena Mogan’s and Naoya Fujita’s results that showed Biomarkers can be used to identify Cancer drugs that are able to treat certain types of cancer that have been shown through clinical studies to be difficult to treat either because they return after being treated or metastasis easily in certain parts of the body. Our results eliminate the need to analyze each data frame separately by stacking them into a single tensor before applying Non-negative Canonical Polyadic Decomposition.
 $$
-```{r}
+Latex format section
+$$
+```{python}
+library("reticulate")
 1+1
 ```
