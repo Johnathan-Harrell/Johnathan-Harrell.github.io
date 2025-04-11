@@ -101,6 +101,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -183,21 +212,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="group-members" class="level3">
 <h3 class="anchored" data-anchor-id="group-members">Group Members:</h3>
-<p><em>Miles O’Brien</em> <br> <em>Johnathan Harrell</em> <br> <em>Jasmine Wright</em> <br> <em>Kamaran Francis</em> <br> <em>Steven Li</em></p>
+<p><em>Miles O’Brien</em> <br> <em>Johnathan Harrell</em> <br> <em>Jasmine Wright</em> <br> <em>Kamaran Francis</em> <br> <em>Junxi(Steven) Li</em></p>
 </section>
 <section id="project-role" class="level3">
 <h3 class="anchored" data-anchor-id="project-role">Project Role:</h3>
 <ul>
 <li><strong>Each member will run Sheena Mogan’s code 20 times</strong></li>
 <li><strong>Johnathan Harrell:</strong> Construct 5 dimensional tensor</li>
-<li><strong>Rest of team:</strong> work on enabling Sheena Mogan’s code to work on GPU</li>
+<li><strong>Rest of team:</strong> work on enabling Sheena Mogan’s code to work on GPU, work on implementing pickle in code</li>
 </ul>
 </section>
 <section id="group-dynamic-role" class="level3">
 <h3 class="anchored" data-anchor-id="group-dynamic-role">Group Dynamic Role</h3>
 <ul>
 <li><strong>Presentation: Johnathan Harrell and Miles O’Brien</strong></li>
-<li><strong>Write-Up: Kamaran Francis, Jasmine Wright, Steven Yi</strong></li>
+<li><strong>Write-Up: Kamaran Francis, Jasmine Wright, Junxi(Steven) Li</strong></li>
 </ul>
 </section>
 <section id="title-bio-marker-discovery-by-non-canonical-polyadic-decomposition" class="level1">
@@ -212,15 +241,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="variables" class="level2">
 <h2 class="anchored" data-anchor-id="variables">Variables:</h2>
-<p>The variables used in the CCLE data set are listed below, along with their dimensionality and data type. These variables are: - Compound Sensitivity <br> - Mutation <br> - Copy Number Amplification <br> - Copy Number Loss <br> - mRNA Expression <br> - Tumor Type</p>
+<p>The variables used in the CCLE data set are listed below, along with their dimensionality and data type. These variables are: <br> - Compound Sensitivity <br> - Mutation <br> - Copy Number Amplification <br> - Copy Number Loss <br> - mRNA Expression <br> - Tumor Type</p>
 </section>
 <section id="end-product" class="level2">
 <h2 class="anchored" data-anchor-id="end-product">End Product:</h2>
-<p>We hope to produce a topic model algorithm that can mirror Sheena Mogan’s and Naoya Fujita’s results that showed Biomarkers can be used to identify Cancer drugs that are able to treat certain types of cancer that have been shown through clinical studies to be difficult to treat either because they return after being treated or metastasis easily in certain parts of the body. Our results eliminate the need to analyze each data frame separately by stacking them into a single tensor before applying Non-negative Canonical Polyadic Decomposition. $$</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span><span class="sc">+</span><span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<p>We hope to produce a topic model algorithm that can mirror Sheena Mogan’s and Naoya Fujita’s results that showed Biomarkers can be used to identify Cancer drugs that are able to treat certain types of cancer that have been shown through clinical studies to be difficult to treat either because they return after being treated or metastasis easily in certain parts of the body. Our results eliminate the need to analyze each data frame separately by stacking them into a single tensor before applying Non-negative Canonical Polyadic Decomposition. <span class="math display">\[
+Latex format section
+\]</span></p>
+<div id="df73bd30" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span><span class="op">+</span><span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="1">
+<pre><code>2</code></pre>
 </div>
 </div>
 
