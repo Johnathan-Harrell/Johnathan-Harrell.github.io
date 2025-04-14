@@ -13,7 +13,7 @@
         "*Johnathan Harrell* <br>\n",
         "*Jasmine Wright* <br>\n",
         "*Kamaran Francis* <br> \n",
-        "*Steven Li*\n",
+        "*Junxi (Steven) Li*\n",
         "\n",
         "### Project Role: \n",
         "- **Each member will run Sheena Mogan’s code 20 times** \n",
@@ -22,7 +22,7 @@
         "\n",
         "### Group Dynamic Role \n",
         "- **Presentation: Johnathan Harrell and Miles O'Brien** \n",
-        "- **Write-Up: Kamaran Francis, Jasmine Wright, Steven Yi**\n",
+        "- **Write-Up: Kamaran Francis, Jasmine Wright, Junxi (Steven) Li**\n",
         "\n",
         "# Title: Bio-Marker Discovery by Non-Canonical Polyadic Decomposition\n",
         "\n",
@@ -34,7 +34,7 @@
         "\n",
         "## Variables: \n",
         "The variables used in the CCLE data set are listed below, along with their dimensionality and data type.\n",
-        "These variables are:\n",
+        "These variables are: <br>\n",
         "- Compound Sensitivity <br>\n",
         "- Mutation <br>\n",
         "- Copy Number Amplification <br>\n",
@@ -48,16 +48,15 @@
         "Latex format section\n",
         "$$"
       ],
-      "id": "9091c669"
+      "id": "eb54ef50"
     },
     {
       "cell_type": "code",
       "metadata": {},
       "source": [
-        "library(\"reticulate\")\n",
         "1+1"
       ],
-      "id": "4e388159",
+      "id": "3440d11f",
       "execution_count": null,
       "outputs": []
     }

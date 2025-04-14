@@ -6,7 +6,8 @@ title: "Math 408 Group Project Proposal"
 *Johnathan Harrell* <br>
 *Jasmine Wright* <br>
 *Kamaran Francis* <br> 
-*Junxi (Steven) Li*
+*Junxi (Steven) Li* <br>
+*Cameron Garcia*
 
 ### Project Role: 
 - **Each member will run Sheena Mogan’s code 20 times** 
@@ -14,7 +15,7 @@ title: "Math 408 Group Project Proposal"
 - **Rest of team:** work on enabling Sheena Mogan's code to work on GPU, work on implementing pickle in code
 
 ### Group Dynamic Role 
-- **Presentation: Johnathan Harrell and Miles O'Brien** 
+- **Presentation: Johnathan Harrell and Miles O'Brien, Cameron Garcia** 
 - **Write-Up: Kamaran Francis, Jasmine Wright, Junxi (Steven) Li**
 
 # Title: Bio-Marker Discovery by Non-Canonical Polyadic Decomposition
