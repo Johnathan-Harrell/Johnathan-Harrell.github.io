@@ -14,16 +14,16 @@ In comodule 1, a strong correlation between the use of cancer biomarkers TP53 an
 <!-- Below code is to add a two images -->
 <div style="text-align: center;">
   <img src="images/co-module-6.png" alt="Image 1" style="display: inline-block; width: 45%; margin-right: 5px;">
-  <img src="images/table3.5.jpg" alt="Image 2" style="display: inline-block; width: 45%;">
+  <img src="images/table3.4.jpg" alt="Image 2" style="display: inline-block; width: 45%;">
 </div>
 
 16 mutations were observed in comodule 2. All mutations were used in literature as biomarkers for diagnosis, treatment sensitivity, tumor progression and prognosis (7). Moreover these mutations encode proteins which will serve in DNA replication and cell communication. Saracatinib halts communication in the cell, while topotecan halts dna replication in the chromosome. Both drugs have been used in literature as a second line treatment in cancer, especially in lung cancer (3,9).
 
-<!-- Below code is to add a two images 
+<!-- Below code is to add a two images -->
 <div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="images/img1.png" alt="Image 1" style="width: 45%;">
-  <img src="images/img2.png" alt="Image 2" style="width: 45%;">
-</div>-->
+  <img src="images/comodule2.PNG" alt="Image 1" style="width: 45%;">
+  <img src="images/table3.5.jpg" alt="Image 2" style="width: 45%;">
+</div>
 Comodule 21 also contains mutations which give insight to other aspects of a cancer profile of a patient, such as cancer risk, tumor burden, and likelihood of malignancy (10). Both drugs in this comodule have been identified as topoisomerase inhibitors which inhibit the initiation of DNA replication (11,12). These drugs may be used to halt the replication of mutated sequences of RNA present in cancers.
 
 
