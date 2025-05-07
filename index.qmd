@@ -18,7 +18,7 @@ title: "Math 408 Group Project Proposal"
 - **Presentation: Johnathan Harrell and Miles O'Brien, Cameron Garcia** 
 - **Write-Up: Kamaran Francis, Jasmine Wright, Junxi (Steven) Li**
 
-# Title: Bio-Marker Discovery by Non-Canonical Polyadic Decomposition
+# Title: Bio-Marker Discovery by Non-negative Canonical Polyadic Decomposition
 
 ## Purpose: 
 Biomarkers are important because it may be possible for scientists to use them to detect, classify, and measure the type of cancer present in a patient. Research is ongoing to support whether or not biomarkers alone are enough to determine cancer types and potential treatments in patients. Patient data can aid in discovering the relationship between specific biomarkers, such as genes that encode proteins. These biomarkers can play an important role in discovering how treatments can be applied to specific cancer types. Our work continues with results obtained in a Master’s thesis by Sheena Mogan titled “Biomarker Discovery by Semi-Supervised Non-Negative Matrix Factorization”. Our goal is to apply Non-Negative Canonical Polyadic Decomposition (NNCPD) to the datasets used in her research and compare our results to her findings. Furthermore, we will confirm the links between the genetic information and cancer types found by NNCPD in the datasets in comparison to the results that have been confirmed in the peer-reviewed publications. We chose NNCPD because of its ability to process multi-omics data tensors, unlike other algorithms limited by their inability to analyze data in more than two dimensions. We hope this method of analyzing genetic oncological data will provide oncologists with a wider lens regarding patient cancer types and possible outcomes of treatment.
@@ -42,5 +42,6 @@ $$
 Latex format section
 $$
 ```{python}
-1+1
+# TODO
+# Figure out how to list modules in index in the order you decide rather than just in alphabetical order (which is the default)
 ```

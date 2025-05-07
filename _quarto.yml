@@ -1,19 +1,31 @@
+# Define the type of project as a website
 project:
   type: website
 
+# Configuration for the website
 website:
+  # The title of the website, shown in the browser and possibly on the site itself
   title: "Johnathan-Harrell.github.io"
+
+  # Navigation bar configuration
   navbar:
+    # Items aligned to the left of the navbar
     left:
+      # Link to the home page (index.qmd), labeled as "Home"
       - href: index.qmd
         text: Home
-      - about.qmd
+      # Link to the About page (about.qmd), using the default text from the file
+      - href: about.qmd
+        text: About
+      - href: Clinical Analysis of SSNMF
+        text: Clinical Analysis of SSNMF
 
+# Output format settings
 format:
   html:
+    # Use the "cosmo" Bootstrap theme for styling
     theme: cosmo
+    # Include a custom CSS file for additional styling
     css: styles.css
+    # Enable the Table of Contents (TOC) on each page
     toc: true
-
-
-

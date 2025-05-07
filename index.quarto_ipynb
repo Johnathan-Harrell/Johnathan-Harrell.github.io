@@ -13,7 +13,8 @@
         "*Johnathan Harrell* <br>\n",
         "*Jasmine Wright* <br>\n",
         "*Kamaran Francis* <br> \n",
-        "*Junxi (Steven) Li*\n",
+        "*Junxi (Steven) Li* <br>\n",
+        "*Cameron Garcia*\n",
         "\n",
         "### Project Role: \n",
         "- **Each member will run Sheena Mogan’s code 20 times** \n",
@@ -21,7 +22,7 @@
         "- **Rest of team:** work on enabling Sheena Mogan's code to work on GPU, work on implementing pickle in code\n",
         "\n",
         "### Group Dynamic Role \n",
-        "- **Presentation: Johnathan Harrell and Miles O'Brien** \n",
+        "- **Presentation: Johnathan Harrell and Miles O'Brien, Cameron Garcia** \n",
         "- **Write-Up: Kamaran Francis, Jasmine Wright, Junxi (Steven) Li**\n",
         "\n",
         "# Title: Bio-Marker Discovery by Non-Canonical Polyadic Decomposition\n",
@@ -48,15 +49,16 @@
         "Latex format section\n",
         "$$"
       ],
-      "id": "eb54ef50"
+      "id": "e9d7fccb"
     },
     {
       "cell_type": "code",
       "metadata": {},
       "source": [
-        "1+1"
+        "# TODO\n",
+        "# Figure out how to list modules in index in the order you decide rather than just in alphabetical order (which is the default)"
       ],
-      "id": "3440d11f",
+      "id": "1f2932dd",
       "execution_count": null,
       "outputs": []
     }
