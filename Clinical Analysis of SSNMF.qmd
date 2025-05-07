@@ -1,9 +1,6 @@
 ---
 title: "Clinical Analysis of SSNMF"
 ---
-<div style="text-align: center;">
-# Clinical Analysis of SSNMF
-</div>
 
 Through careful analysis of our derived data and published clinical trial results, we observed associations between drug sensitivity and the relevance of cancer biomarkers produced in the comodules. Given cancer's aggressive and variable response across patients, identifying these biomarkers is crucial for informing treatment decisions by physicians. By refining a broader dataset of cell lines, physicians can make more informed prognostic plans that are tailored to each  individual cancer type. Given the randomness of genetic variations in cancers across and within organs, correlations between biomarkers and drug sensitivity offers broader insights into how cancer cells are likely to respond to treatment.<br>
 	
